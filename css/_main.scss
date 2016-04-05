@@ -1,0 +1,94 @@
+// CAROUSEL
+.carousel-caption {
+	top: 4%;
+	font-family: $academy;
+}
+.carousel__text {
+	text-align: left;
+	text-transform: uppercase;
+	margin-top: 8%;
+	p:first-child {
+		font-size: 36px;
+		line-height: 58px;
+	}
+	p:last-child {
+		font-size: 60px;
+
+	}
+}
+.carousel__icon {
+
+}
+.carousel__img{
+
+}
+
+.carousel-indicators {
+	top: 70%;
+}
+.carousel-indicators li {
+	width: 22px;
+	height: 22px;
+	background-color: $c-white;
+	border: 2px solid $c-white;
+	@include border-radius(100%);
+	margin-right: 6px;
+}
+.carousel-indicators .active {
+	width: 22px;
+	height: 22px;
+	background-color: $c-blue;
+	border: 2px solid $c-white;
+	@include border-radius(100%);
+}
+
+.mouse__img {
+	position: absolute;
+	margin: auto;
+	bottom: 11%;
+	left: 0;
+	right: 0;
+	width: 42px;
+	height: 60px;
+	background: url(../img/mause.png) no-repeat;
+}
+
+
+
+// MENU
+.menu {
+	margin: 15px;
+	position: relative;
+}
+.group-first {
+	position: relative;
+	display: block;
+	height: 1100px;
+}
+.group-menu {
+	padding: 0;
+	display: block;
+	height: 550px;
+}
+.menu__img {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.menu__text {
+	font-family: $academy;
+	font-size: 26px;
+	color: $c-black;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 28px;
+   padding: 20px 0px;
+   position: absolute;
+   margin: auto;
+   bottom: 5px;
+   left: 0;
+   right: 0;
+}

@@ -1,0 +1,128 @@
+header {
+	font-family: $cambria;
+	height: 165px;
+}
+
+// LOGO
+.logo {}
+.logo__link{}
+.logo__img {
+	margin-top: 16px;
+}
+
+// INFO
+.info {
+	margin-top: 16px;
+	padding-left: 0;
+}
+
+.info__phone {
+	font-size: 36px;
+	color: $c-blue;
+	margin: 0;
+	letter-spacing: 1px;
+	span {
+		font-size: 27px;
+		color: $c-l-gray;
+		letter-spacing: 1px;
+		margin-right: 4px;
+	}
+}
+.info__work{
+	color: $c-brown;
+	margin: 0;
+	font-size: 18px;
+   margin-top: -4px;
+   letter-spacing: 0.8px;
+}
+
+// BOOKING
+.booking {
+	margin-top: 33px;
+}
+.booking__btn {
+	display: block;
+	width: 215px;
+	height: 45px;
+	border: 1px solid $c-blue;
+	background: transparent;
+	cursor: pointer;
+
+	line-height: 45px;
+	text-align: center;
+	color: $c-blue;
+	font-size: 17px;
+	text-transform: uppercase;
+
+	margin-left: 15px;
+	@include transition( all, 0.3, linear);
+	&:hover {
+		background: $c-blue;
+		color: $c-white;
+	}
+}
+
+// SOCIAL
+.h-social {
+	margin-top: 40px;
+	padding: 0;
+}
+.h-social__list {
+	padding: 0;
+	padding-left: 5px;
+}
+.h-social__item {
+	font-size: 26px;
+	display: inline-block;
+	vertical-align: top;
+	list-style: none;
+	margin-right: 10px;
+}
+.h-social__link {
+	width: 35px;
+	height: 35px;
+	display: block;
+}
+.h-social__link_facebook {
+	background: url(../img/social.png);
+	background-position: 0px 0px;
+}
+.h-social__link_instagram {
+	background: url(../img/social.png);
+	background-position: -46px 0px;
+}
+
+// NAV
+nav {
+	width: 100%;
+	height: 50px;
+	background: #F3F3F3;
+}
+.nav__list {
+	padding: 0;
+	margin-top: 13px;
+	margin-left: 19%;
+}
+.nav__item {
+	list-style-type: none;
+	width: 191px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+.nav__link {
+	color: $c-black;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-decoration: none;
+	@include transition( all, 0.3, linear);
+	&:hover,
+	&:active,
+	&:focus {
+		text-decoration: none;
+		color: $c-blue;
+	}
+}
+.nav__item.active .nav__link {
+	color: $c-blue;
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Document</title>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!--[if lte IE 8]>
+  		<script src="/react/js/html5shiv.min.js"></script>
+  		<script src="/react/js/es5-shim.min.js"></script>
+  		<script src="/react/js/es5-sham.min.js"></script>
+   <![endif]-->
+
+	<script src="js/jquery-1.12.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<header>
+		<div class="h-container row">
+			<div class="logo col-xs-3 col-sm-3 col-md-3 col-lg-3">
+				<a  class="logo__link" href="">
+					<img class="logo__img" src="img/logo.png" alt="">
+				</a>
+			</div>
+
+			<div class="info col-xs-5 col-sm-5 col-md-5 col-lg-5">
+				<p class="info__phone"><span>+7(495)</span>915-34-16</p>
+				<p class="info__work">Режим работы с 11:00 до 24:00</p>
+			</div>
+
+			<div class="booking col-xs-3 col-sm-3 col-md-3 col-lg-3">
+				<a class="booking__btn">заказать столик</a>
+			</div>
+
+			<div class="h-social col-xs1 col-sm-1 col-md-1 col-lg-1">
+				<ul class="h-social__list">
+					<li class="h-social__item"><a href="" class="h-social__link h-social__link_facebook"></a></li>
+					<li class="h-social__item"><a href="" class="h-social__link h-social__link_instagram"></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<nav>
+			<div class="n-container row">
+				<ul class="nav__list">
+					<li class="nav__item active"><a href="#" class="nav__link">меню</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">о ресторане</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">кейтеринг</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">отзывы</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">контакты</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+<!-- CAROUSEL START-->
+		<div class="carousel-container">
+			<div id="carousel" class="carousel slide" data-ride="carousel">
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+			    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel" data-slide-to="1"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+
+					<div class="item active">
+						<img src="img/banner-1.jpg" alt="">
+
+						<div class="carousel-caption row">
+							<div class="carousel__text col-lg-8">
+								<p>Сегодня  вы можете насладиться <br> разнообразием</p>
+								<p>«чайного меню»</p>
+							</div>
+							<div class="carousel__icon col-lg-4">
+								<img class="carousel__img" src="img/cup.png" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="img/banner-2.jpg" alt="">
+
+						<div class="carousel-caption row">
+							<div class="carousel__text col-lg-8">
+								<p>Сегодня  вы можете насладиться <br> разнообразием</p>
+								<p>«чайного меню»</p>
+							</div>
+							<div class="col-lg-4">
+								<img class="carousel__img" src="img/cup.png" alt="">
+							</div>
+						</div>
+					</div>
+
+					<div class="mouse">
+						<div class="mouse__img"></div>
+					</div>
+
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+			    <span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+			    <span class="sr-only">Next</span>
+			  </a>
+			</div>
+		</div>
+<!-- CAROUSEL END-->
+
+	<div class="menu row">
+<!-- FIRST GROUP START-->
+		<div class="group-menu row">
+			<a class="group-first col-xs-5 col-sm-5 col-md-5 col-lg-5" href="#">
+				<img class="menu__img" src="img/menu-1.jpg" alt="">
+				<div class="menu__text">основное меню</div>
+			</a>
+
+			<div class="group-menu col-xs-7 col-sm-7 col-md-7 col-lg-7">
+				<div class="group-menu row">
+
+					<a class="group-menu col-xs-6 col-sm-6 col-md-6 col-lg-6" href="#">
+						<img class="menu__img" src="img/menu-2.jpg" alt="">
+						<div class="menu__text">постное меню</div>
+					</a>
+
+					<a class="group-menu col-xs-6 col-sm-6 col-md-6 col-lg-6" href="#">
+						<img class="menu__img" src="img/menu-3.jpg" alt="">
+						<div class="menu__text">детское меню</div>
+					</a>
+
+				</div>
+
+				<div class="group-menu row">
+
+					<a class="group-menu col-xs-6 col-sm-6 col-md-6 col-lg-6" href="#">
+						<img class="menu__img" src="img/menu-4.jpg" alt="">
+						<div class="menu__text">кейтеринг</div>
+					</a>
+
+					<a class="group-menu col-xs-6 col-sm-6 col-md-6 col-lg-6" href="#">
+						<img class="menu__img" src="img/menu-5.jpg" alt="">
+						<div class="menu__text">выпечка</div>
+					</a>
+
+				</div>
+			</div>
+		</div>
+<!-- FIRST GROUP END-->
+<div class="clearfix"></div>
+<!-- SECOND GROUP START -->
+		<div class="group-menu row">
+
+			<a class="group-menu col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
+				<img class="menu__img" src="img/menu-6.jpg" alt="">
+				<div class="menu__text">Десерты</div>
+			</a>
+
+			<a class="group-menu col-xs-4 col-sm-4 col-md-4 col-lg-4" href="#">
+				<img class="menu__img" src="img/menu-7.jpg" alt="">
+				<div class="menu__text">Чайное меню</div>
+			</a>
+
+			<a class="group-menu col-xs-4 col-sm-4 col-md-4 col-lg-4" href="#">
+				<img class="menu__img" src="img/menu-8.jpg" alt="">
+				<div class="menu__text">Банкеты-фуршет</div>
+			</a>
+
+		</div>
+<!-- SECOND GROUP END -->
+<div class="clearfix"></div>
+<!-- THIRD GROUP START -->
+		<div class="group-menu row">
+
+			<a class="group-menu col-xs-4 col-sm-4 col-md-4 col-lg-4" href="#">
+				<img class="menu__img" src="img/menu-9.jpg" alt="">
+				<div class="menu__text">Алкогольные  напитки</div>
+			</a>
+
+			<a class="group-menu col-xs-4 col-sm-4 col-md-4 col-lg-4" href="#">
+				<img class="menu__img" src="img/menu-10.jpg" alt="">
+				<div class="menu__text">Безалкогольные напитки</div>
+			</a>
+
+			<a class="group-menu col-xs-2 col-sm-2 col-md-2 col-lg-2" href="#">
+				<img class="menu__img" src="img/menu-11.jpg" alt="">
+				<div class="menu__text">Блюда от<br>шеф-повара</div>
+			</a>
+
+		</div>
+<!-- THIRD GROUP END -->
+	</div>
+
+	</main>
+
+	<footer>
+		<div class="f-container row">
+			<div class="copyright col-xs-8 col-sm-8 col-md-8 col-lg-8">
+				<p class="copyright__text">&copy; 2009–2016 Все права защищены. Разработка и поддержка
+				<a class="copyright__link" href="">ООО СКАИД</a></p>
+			</div>
+			<div class="f-social col-xs-4 col-sm-4 col-md-4 col-lg-4">
+				<ul class="f-social__list">
+					<li class="f-social__item">
+						Мы в соц сетях:
+					</li>
+					<li class="f-social__item">
+						<a href="#" class="f-social__link f-social__link_facebook"></a>
+					</li>
+					<li class="f-social__item">
+						<a href="#" class="f-social__link f-social__link_instagram"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+
+<script>
+	$('.carousel').carousel({
+  		interval: 1000000
+	})
+</script>
+
+</body>
+</html>

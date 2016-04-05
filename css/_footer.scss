@@ -1,0 +1,48 @@
+footer {
+	font-family: $academy;
+	height: 125px;
+	background: #F3F3F3;
+	overflow: hidden;
+}
+.copyright {
+	font-size: 26px;
+	color: $c-d-gray;
+}
+.copyright__text {
+
+}
+.copyright__link {
+	color: $c-d-gray;
+	text-decoration: none;
+	&:hover,
+	&:focus,
+	&:active {
+		text-decoration: underline;
+	}
+}
+.f-social {
+
+}
+.f-social__list {
+	padding: 0;
+}
+.f-social__item {
+	font-size: 26px;
+	display: inline-block;
+	vertical-align: top;
+	list-style: none;
+	margin-right: 10px;
+}
+.f-social__link {
+	width: 35px;
+	height: 35px;
+	display: block;
+}
+.f-social__link_facebook {
+	background: url(../img/social.png);
+	background-position: 0px -46px;
+}
+.f-social__link_instagram {
+	background: url(../img/social.png);
+	background-position: -46px -46px;
+}

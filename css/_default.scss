@@ -1,0 +1,36 @@
+$c-white: #ffffff;
+$c-black: #080808;
+$c-blue: #116cc9;
+$c-brown: #796c5f;
+$c-l-gray: #adadad;
+$c-d-gray: #3d3b3b;
+
+$cambria: 'Cambria-Regular', Arial, "Helvetica Neue", Helvetica, sans-serif;
+$academy: 'AcademyC-Regular', Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+.h-container {
+	width: 1200px;
+	height: 115px;
+	margin: 0 auto;
+	position: relative;
+}
+.n-container {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.c-container {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.m-container {
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+.f-container {
+	width: 1470px;
+	margin: 40px auto 0;
+	position: relative;
+}
